@@ -41,6 +41,7 @@ def product_detail(request, id, slug):
                   {'product': product,
                    'cart_product_form': cart_product_form})
 
+
 def search(request):
     key =  request.GET.get('names', None)
     name=[]
